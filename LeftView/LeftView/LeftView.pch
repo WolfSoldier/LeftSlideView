@@ -1,0 +1,25 @@
+//
+//  ProjectTest-prefixheader.pch
+//  ProjectTest
+//
+//  Created by kevin on 16/4/18.
+//  Copyright © 2016年 kevin. All rights reserved.
+//
+
+#ifndef ProjectTest_prefixheader_h
+#define ProjectTest_prefixheader_h
+
+#define IndexSec indexPath.section
+#define IndexRow indexPath.row
+
+#define AppWindow [[[UIApplication sharedApplication] delegate] window]
+
+#define ScreenBounds    [UIScreen mainScreen].bounds                         //返回屏幕Bounds
+#define ScreenOrigin    ScreenBounds.origin                                 //返回屏幕原点
+#define ScreenSize      ScreenBounds.size                                   //返回屏幕尺寸
+#define ScreenOriginX   ScreenOrigin.x                                      //返回屏幕原点坐标X
+#define ScreenOriginY   ScreenOrigin.y                                      //返回屏幕原点坐标Y
+#define ScreenWidth     ScreenSize.width                                    //返回屏幕宽度
+#define ScreenHeight    ScreenSize.height                                   //返回屏幕高度
+
+#endif /* ProjectTest_prefixheader_h */
